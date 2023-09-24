@@ -1,25 +1,28 @@
+h1 {
+    color:blueviolet;
+    font-family: monospace; 
+    text-align:center;
+    font-size: 30px;
+}
+button {
+    font-family: monospace;
+    text-transform:uppercase;
+    background-color: blueviolet;
+    border-radius: 10px;
+    justify-content: center;
+}
+button:hover {
+    background-color: blue;
+}
 
-        h1 {
-            color:rgb(14, 117, 234);
-            font-family: monospace; 
-            text-align:center;
-            font-size: 30px;
-        }
-        h2 {
-            color:rgb(14, 117, 234);
-            font-family: monospace; 
-            font-size: 30px;
-            text-align:center;
-        }
-        h3 {
-            color:rgb(14, 117, 234);
-            font-family: monospace; 
-            font-size: 30px;
-            text-align:center;
-        }
-        p {
-            color:rgb(14, 117, 234);
-            font-family: monospace; 
-            font: size 10px;
-            text-align:center;
-        }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 200px;
+
+}
+
