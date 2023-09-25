@@ -1,5 +1,5 @@
 h1 {
-    color:blueviolet;
+    color:rgb(219, 20, 173);
     font-family: monospace; 
     text-align:center;
     font-size: 30px;
@@ -7,7 +7,7 @@ h1 {
 button {
     font-family: monospace;
     text-transform:uppercase;
-    background-color: blueviolet;
+    background-color: rgb(219,20,173);
     border-radius: 10px;
     justify-content: center;
     width:100%;
@@ -15,7 +15,7 @@ button {
     font-size:large;
 }
 button:hover {
-    background-color: rgb(133, 3, 151);
+    background-color: rgb(219, 20, 173);
 }
 div {
     width: 200px;
@@ -35,6 +35,6 @@ div {
     border-radius: 15px;
     opacity: 0.8;
 }
-.flex-container div {
-    flex : 1;
+.flex-container {
+    display: flex;
 }
